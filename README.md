@@ -72,15 +72,6 @@ Hệ thống này sử dụng **dữ liệu thời tiết lịch sử**, thu th�
 
 ### 🔹 **1. Logistic Regression**
 - Phù hợp cho **bài toán phân loại nhị phân (mưa/không mưa)**.
-- Xác suất dự đoán được tính bằng hàm sigmoid:
-  
-  \[
-  P(y=1|x) = \frac{1}{1 + e^{-z}}
-  \]
-  
-  Với:
-  - \( z = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_px_p \).
-
 ### 🔹 **2. XGBClassifier (Extreme Gradient Boosting)**
 - Áp dụng **Gradient Boosting Decision Trees (GBDT)**.
 - Học từ các lỗi của mô hình trước để cải thiện dự báo.
